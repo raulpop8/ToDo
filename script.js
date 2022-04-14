@@ -9,13 +9,14 @@ if (todos) {
         addTodo(todo);
     });
 }
-
+// when the submit button is clicked
 form.addEventListener("submit", (e) => {
     e.preventDefault();
-
+    // add a task
     addTodo();
 });
 
+// adding a task to the list
 function addTodo(todo) {
     let todoText = input.value;
 

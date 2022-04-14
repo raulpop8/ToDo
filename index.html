@@ -4,16 +4,19 @@
     <head>
         <meta charset="UTF-8">
         <meta name="author" content="Raul Pop">
-        <meta name="description" content="to be updated">
+        <meta name="description" content="simple, minimal and responsive todo list to keep track of your daily tasks">
+        <meta name="keywords" content="task, list, to do, notebook, notes, simple, minimal, responsive">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
         <title>ToDo</title>
-        
+        <!-- style & fontawesome -->
         <link rel="stylesheet" href="style.css">
-        <script src="script.js" defer></script>
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+        <!-- favicon -->
+        <link rel="icon" type="image/svg+xml" href="favicon.svg">
+        <link rel="icon" type="image/png" href="favicon.png">
+        
+        <script src="script.js" defer></script>
         <!-- fix to get HTML5 semantic elements working in old versions of IE -->
         <!--[if lt IE 9]>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -22,14 +25,9 @@
 
     <body>
         <h1>todos</h1>
+
         <form id="form">
-            <input
-                type="text"
-                id="input"
-                class="input"
-                placeholder="..."
-                autocomplete="off"
-            />
+            <input type="text" id="input" class="input" placeholder="..." autocomplete="off" />
             <ul class="todos" id="todos"></ul>
         </form>
         
@@ -37,10 +35,10 @@
             Left click to toggle complete <br />
             Right click to delete task
         </small>
-        <footer>
-            <p>made with &#x2665 by <a href="https://bio.link/raulpop">Raul Pop</a></p>
-        </footer>
 
+        <footer>
+            <p>made with &#x2665 by <a href="https://raulpop.ro">Raul</a></p>
+        </footer>
     </body>
 
 </html>
