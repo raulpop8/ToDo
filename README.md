@@ -13,4 +13,4 @@ You can see the project live here: <a href="https://raulpop.ro/projects/todo/" t
 There probably will be minor changes for this project. As I learn new things and get more confortable with writing my own code, I'll definitely change thinks around.
 
 <p align="center">made with 💜 Raul Pop</p>
-<p align="center"><a href="https://ko-fi.com/raulpop"> <img src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="raulpop" /></a></p>
+<p align="center"><a href="https://ko-fi.com/raulpop" target='_blank'> <img src="https://cdn.ko-fi.com/cdn/kofi5.png" alt="Buy Me a Coffee at ko-fi.com" /></a></p>
